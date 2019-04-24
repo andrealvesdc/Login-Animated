@@ -9,6 +9,11 @@ npm install
 ```
 npm run serve
 ```
+
+### acesse no seu navegador
+```
+localhost:8080
+```
 ----------------------------------------
 
 

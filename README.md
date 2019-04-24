@@ -1,14 +1,16 @@
-# login
+# instruções
 
-## Project setup
+## Instale as dependencias
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### execute o projeto
 ```
 npm run serve
 ```
+----------------------------------------
+
 
 ### Compiles and minifies for production
 ```

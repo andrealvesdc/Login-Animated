@@ -2,17 +2,19 @@
     <div class="login">
         <Tela />
         <Ondas />
+        <Cabecalho />
     </div>
 
     
 </template>
 
 <script>
+import Cabecalho from "../components/Cabecalho"
 import Tela from "../components/Tela"
 import Ondas from "../components/Ondas"
 
 export default {
-    components: {Tela, Ondas}
+    components: {Cabecalho,Tela, Ondas}
 
 }
 </script>

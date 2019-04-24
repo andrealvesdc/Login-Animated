@@ -7,6 +7,7 @@
             <input type="password" name="" placeholder="Senha">
             <input type="submit" name="" value="Conecte-se">
             <input type="submit" name="" value="Primeiro acesso?">
+            <p>Esqueci a senha</p>
             </form>
         </div>
     </div>
@@ -80,5 +81,8 @@ body{
   background:  rgb(34, 130, 175);
 }
 
+p:hover{
+  color:  rgb(34, 130, 175);
+}
 
 </style>

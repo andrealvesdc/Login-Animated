@@ -2,12 +2,12 @@
     <div class="tela">
         <div>
             <form class="box" action="index.html" method="post">
-            <h1>Aluno</h1>
+            <h1>Bem-vindo aluno(a)</h1>
             <input type="text" name="" placeholder="Usuário">
             <input type="password" name="" placeholder="Senha">
             <input type="submit" name="" value="Conecte-se">
             <input type="submit" name="" value="Primeiro acesso?">
-            <p>Esqueci a senha</p>
+            <li><a href="#">Esqueci a senha</a></li>
             </form>
         </div>
     </div>
@@ -32,7 +32,7 @@ body{
   width: 300px;
   padding: 20px;
   position: absolute;
-  top: 50%;
+  top: 44%;
   left: 50%;
   transform: translate(-50%,-50%);
   background: #141b30;
@@ -41,7 +41,6 @@ body{
 }
 .box h1{
   color: white;
-  text-transform: uppercase;
   font-weight: 500;
 }
 .box input[type = "text"],.box input[type = "password"]{
@@ -57,6 +56,7 @@ body{
   color: white;
   border-radius: 10px;
   transition: 0.25s;
+  font-size: 16px;
 
 }
 .box input[type = "text"]:focus,.box input[type = "password"]:focus{
@@ -76,13 +76,23 @@ body{
   border-radius: 24px;
   transition: 0.25s;
   cursor: pointer;
+   font-size: 16px;
 }
 .box input[type = "submit"]:hover{
   background:  rgb(34, 130, 175);
 }
-
-p:hover{
-  color:  rgb(34, 130, 175);
+ 
+li a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-weight: lighter;
+	padding: 0 40px;
+ 
 }
+
+li{
+ list-style: none;
+}
+
 
 </style>

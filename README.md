@@ -1,5 +1,8 @@
 # instruções
 
+Considerando que você já tenha todo o ambiente VueJS devidamente configurado,
+basta seguir os passos a seguir para rodar o programa.
+
 ## Instale as dependencias
 ```
 npm install

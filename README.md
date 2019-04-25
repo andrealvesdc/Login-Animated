@@ -3,11 +3,14 @@
 Considerando que você já tenha todo o ambiente VueJS devidamente configurado,
 basta seguir os passos logo abaixo para rodar o programa.
 
-## Instale as dependencias
+## Baixe ou clone o repositório
+
+## Entre na pasta dos arquivos
+
+## Pelo terminal, Instale as dependencias
 ```
 npm install
 ```
-
 ### execute o projeto
 ```
 npm run serve

@@ -1,14 +1,21 @@
-# login
+# instruções
 
-## Project setup
+## Instale as dependencias
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### execute o projeto
 ```
 npm run serve
 ```
+
+### acesse no seu navegador
+```
+localhost:8080
+```
+----------------------------------------
+
 
 ### Compiles and minifies for production
 ```
